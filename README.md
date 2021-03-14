@@ -8,27 +8,8 @@ Projeto desenvolvido para a disciplina de Programação. Consiste em um programa
 
 Todo início de mês é hora da declaração do imposto de renda na República, uma ditadura absolutista do Leste Europeu. O ministro da economia determinou que cada cidadão deve informar mensalmente seus rendimentos no mês anterior (na moeda local, Unidade de Troca Financeira, ou UT₣), em ofício protocolado em 3 vias, com reconhecimento de firma em cartório. O cálculo do imposto a pagar no mês é baseado em tabelas que são reajustadas anualmente. A tabela para este ano é a seguinte:
 
+![image](https://user-images.githubusercontent.com/46321386/111055823-77fd2780-8458-11eb-992b-120942dbf64c.png)
 
-Alíquota | Rendimentos (UT₣), Janeiro a Abril
-0        |           Até 1.200,25
-7,5%     |           De 1.200.26 até 2.300,50
-15,0%    |           De 2.300,51 até 3.500,75
-22,5%    |           De 3.500,76 até 4.000,00
-27,5%    |           Acima de 4.000,00
-
-Alíquota | Rendimentos (UT₣), Maio a Agosto
-0        |           Até 1.500,00
-7,5%     |           De 1.500,01 até 2.800,25
-15,0%    |           De 2.800,26 até 3.500,50
-22,5%    |           De 3.500,51 até 4.300,75
-27,5%    |           Acima de 4.300,75
-
-Alíquota | Rendimentos (UT₣), Setembro a Dezembro
-0        |          Até 1.875,00
-7,5%     |          De 1.875,01 até 3.400,50
-15,0%    |          De 3.400,51 até 3.900,25
-22,5%    |          De 3.900,26 até 4.600,25
-27,5%    |          Acima de 4.600,25
 
 O imposto é calculado de forma que a alíquota não incide sobre o total dos rendimentos, mas somente sobre a parcela que se encontra em determinada faixa. Desta forma, um cidadão com rendimento de UT₣ 1.200,25 em Janeiro está isento do pagamento do imposto, mas um cidadão com rendimento de UT₣ 1.201,25 não terá que pagar UT₣ 90,09 de imposto, mas somente UT₣ 0,08 (arredondando os valores para 2 casas decimais). A tabela abaixo apresenta outros exemplos:
 
